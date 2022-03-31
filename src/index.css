@@ -1,0 +1,10 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu li > :where(a),
+.menu li > :where(button),
+.menu li > :where(span) {
+  color: rgba(196, 196, 196, 0.95);
+}
